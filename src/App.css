@@ -53,7 +53,7 @@ h6 {
   margin-bottom: 1.5em;
 }
 
-.btn-primary {
+.btn-Primary {
   display: inline-block;
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
@@ -65,7 +65,7 @@ h6 {
   text-transform: uppercase;
   cursor: pointer;
 }
-.btn-primary:hover {
+.btn-Primary:hover {
   background: transparent;
   color: var(--primaryColor);
 }
@@ -88,7 +88,7 @@ h6 {
 }
 /* end of globals */
 /* Navbar */
-.navbar {
+.navBar {
   position: fixed;
   top: 0;
   left: 0;
@@ -97,27 +97,27 @@ h6 {
   background: var(--offWhite);
   z-index: 1;
 }
-.nav-header {
+.nav-Header {
   display: flex;
   justify-content: space-between;
 }
-.nav-btn {
+.nav-Btn {
   background: transparent;
   border: none;
   cursor: pointer;
   outline: none;
 }
-.nav-icon {
+.nav-Icon {
   font-size: 1.5rem;
   color: var(--primaryColor);
 }
-.nav-links {
+.nav-Links {
   height: 0;
   overflow: hidden;
   transition: var(--mainTransition);
   list-style-type: none;
 }
-.nav-links a {
+.nav-Links a {
   display: block;
   text-decoration: none;
   padding: 1rem 0;
@@ -128,7 +128,7 @@ h6 {
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
 }
-.nav-links a:hover {
+.nav-Links a:hover {
   color: var(--primaryColor);
 }
 
@@ -136,20 +136,20 @@ h6 {
   height: 100px;
 }
 @media screen and (min-width: 768px) {
-  .nav-btn {
+  .nav-Btn {
     display: none;
   }
-  .nav-center {
+  .nav-Center {
     max-width: 1170px;
     margin: 0 auto;
     display: flex;
   }
-  .nav-links {
+  .nav-Links {
     height: auto;
     display: flex;
     margin-left: 4rem;
   }
-  .nav-links a {
+  .nav-Links a {
     margin: 0 1rem;
     padding: 0.5rem 0;
   }
@@ -252,6 +252,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;
@@ -301,6 +302,11 @@ h6 {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
 }
+
+.room p {
+  margin-bottom: 0 !important;
+}
+
 .room:hover {
   box-shadow: var(--darkShadow);
 }
