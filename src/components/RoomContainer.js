@@ -18,7 +18,7 @@ function RoomContainer({context}) {
     )
   }
 
-export default withRoomConsumer(RoomContainer)
+export default withRoomConsumer(RoomContainer); // <- we wrap, so we have access to `context`
 
 // import React, { Component } from 'react';
 // import RoomFilter from './RoomFilter';
